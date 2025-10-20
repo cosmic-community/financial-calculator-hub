@@ -15,8 +15,6 @@ A modern React component showcase featuring 5 professionally designed financial 
 
 ## Clone this Project
 
-## Clone this Project
-
 Want to create your own version of this project with all the content and structure? Clone this Cosmic bucket and code repository to get started instantly:
 
 [![Clone this Project](https://img.shields.io/badge/Clone%20this%20Project-29abe2?style=for-the-badge&logo=cosmic&logoColor=white)](https://app.cosmicjs.com/projects/new?clone_bucket=68f604f190633b10bf459efb&clone_repository=68f60b2990633b10bf459f12)
@@ -38,10 +36,11 @@ The app has been tailored to work with your existing Cosmic content structure an
 ## Technologies
 
 - **React 18** - Modern React with hooks
+- **Vite** - Next-generation frontend tooling (⚡ Fast HMR)
 - **Tailwind CSS** - Utility-first CSS framework
 - **Framer Motion** - Animation library for React
 - **Lucide React** - Beautiful icon library
-- **Vite** - Next-generation frontend tooling
+- **TypeScript** - Type-safe development
 
 ## Getting Started
 
@@ -54,88 +53,3 @@ The app has been tailored to work with your existing Cosmic content structure an
 
 1. Clone the repository
 2. Install dependencies:
-
-```bash
-bun install
-```
-
-3. Start the development server:
-
-```bash
-bun run dev
-```
-
-4. Open your browser to `http://localhost:5173`
-
-## Project Structure
-
-```
-financial-calculator-hub/
-├── src/
-│   ├── App.tsx              # Main application with all 5 designs
-│   ├── main.tsx             # Application entry point
-│   └── index.css            # Global styles and Tailwind imports
-├── index.html               # HTML template
-├── package.json             # Dependencies and scripts
-├── tailwind.config.js       # Tailwind configuration
-├── tsconfig.json            # TypeScript configuration
-└── vite.config.ts           # Vite configuration
-```
-
-## Design Variations
-
-### Design 1: Gradient Glassmorphism
-- Floating gradient cards with blur effects
-- Smooth scale animations on hover
-- Modern purple/blue color scheme
-
-### Design 2: Minimalist Grid
-- Clean card-based layout
-- Subtle icon badges
-- Professional gray palette with blue accents
-
-### Design 3: Bold Modern 3D
-- Cards with depth and shadows
-- Dynamic hover transformations
-- Vibrant gradient backgrounds
-
-### Design 4: Corporate Professional
-- Structured grid layout
-- Clean typography and spacing
-- Traditional blue color scheme
-
-### Design 5: Contemporary Gradient Mesh
-- Animated gradient backgrounds
-- Premium glass effects
-- Modern color combinations
-
-## Customization
-
-Each design is self-contained in its own section within `App.tsx`. You can:
-
-- Modify colors in the component styles
-- Adjust animations in the Framer Motion props
-- Change calculator types and icons
-- Customize spacing and layout
-
-## Deployment Options
-
-### Vercel (Recommended)
-```bash
-bun install -g vercel
-vercel
-```
-
-### Netlify
-```bash
-bun run build
-# Upload the dist folder to Netlify
-```
-
-### Static Hosting
-```bash
-bun run build
-# Upload the dist folder to any static host
-```
-
-<!-- README_END -->
